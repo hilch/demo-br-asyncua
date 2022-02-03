@@ -2,7 +2,7 @@
 # simple example how to get access to B&R control with asyncua (asyncio based OPC-UA stack)
 # this program is published under the terms of GPL-3.0
 
-# tested with Python 3.9.9 and B&R 'coffe machine' demo project in AS4.7 (ArSim)
+# tested with Python 3.9.5 and B&R 'coffe machine' demo project in AS4.1 (ArSim)
 # writing the variables needs
 # writing the tags requires the activation of the OPC-UA server 
 # and a configuration of the corresponding variables as writeable tags.
@@ -19,9 +19,8 @@ except ModuleNotFoundError:
 
 async def start():
     uaClient = Client(url="opc.tcp://127.0.0.1:4840")
-    # anonymous access does not need a user/passwort set 
-    #uaClient.set_user('mickey')
-    #uaClient.set_password('4711') 
+    uaClient.set_user('admin')
+    uaClient.set_password('password') 
     connected = False
     try:
         await uaClient.connect()
