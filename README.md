@@ -1,11 +1,11 @@
 # demo-br-asyncua
-simple example how to get access to B&amp;R control with [asyncua asyncio based OPC-UA stack)
+simple example how to get access to B&amp;R control with [asyncua asyncio based OPC-UA stack]
 [https://github.com/FreeOpcUa/opcua-asyncio](https://github.com/FreeOpcUa/opcua-asyncio)
 
 ## Installation
 
 ### Python
-(I tested with Python 3.9.5)
+tested with Python 3.9.5 and Win10/64Bit
 
 ### asyncua library
 `pip install asyncua`
