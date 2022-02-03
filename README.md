@@ -1,5 +1,5 @@
 # demo-br-asyncua
-simple example how to get access to B&amp;R PLC with [asyncua: asyncio based OPC-UA stack](https://github.com/FreeOpcUa/opcua-asyncio)
+simple example how to get access to B&amp;R PLC with [asyncua: Python asyncio based OPC-UA stack](https://github.com/FreeOpcUa/opcua-asyncio)
 
 ## Installation
 
