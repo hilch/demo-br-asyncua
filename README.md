@@ -1,5 +1,5 @@
 # demo-br-asyncua
-simple example how to get access to B&amp;R control with [asyncua asyncio based OPC-UA stack](https://github.com/FreeOpcUa/opcua-asyncio](https://github.com/FreeOpcUa/opcua-asyncio)
+simple example how to get access to B&amp;R control with [asyncua: asyncio based OPC-UA stack](https://github.com/FreeOpcUa/opcua-asyncio)
 
 ## Installation
 
