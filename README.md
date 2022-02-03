@@ -1,16 +1,16 @@
 # demo-br-asyncua
-simple example how to get access to B&amp;R control with [asyncua: asyncio based OPC-UA stack](https://github.com/FreeOpcUa/opcua-asyncio)
+simple example how to get access to B&amp;R PLC with [asyncua: asyncio based OPC-UA stack](https://github.com/FreeOpcUa/opcua-asyncio)
 
 ## Installation
 
 ### Python
-tested with Python 3.9.5 and Win10/64Bit
+tested with Python 3.9.5 under Win10/64Bit
 
 ### asyncua library
 `pip install asyncua`
 
 ### VNC-Viewer
-
+Many VNC viewers work but B&R VNC Viewer is already reasonably preconfigured:
 [B&R VNC Viewer](https://www.br-automation.com/en/downloads/software/hmi-software/vnc-viewer/vnc-viewer-winxp-win7-win81-win10/?noredirect=1)
 
 
