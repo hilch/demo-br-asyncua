@@ -3,7 +3,6 @@
 # this program is published under the terms of GPL-3.0
 
 # tested with Python 3.9.5 and B&R 'coffe machine' demo project in AS4.1 (ArSim)
-# writing the variables needs
 # writing the tags requires the activation of the OPC-UA server 
 # and a configuration of the corresponding variables as writeable tags.
 
